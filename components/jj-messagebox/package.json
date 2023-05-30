@@ -1,0 +1,20 @@
+{
+    "id": "jj-messagebox",
+    "name": "jj-uni-messagebox",
+    "displayName": "jj-uni-messagebox",
+    "version": "1.1.2",
+    "description": "兼容各平台弹窗提示框(alert,loading,toast,popup,dialog)，支持自定义，全局调用，app可以覆盖任何原生组件",
+    "keywords": [
+        "弹出框",
+        "弹框",
+        "遮罩层",
+        "modal",
+        "版本更新"
+    ],
+    "dcloudext": {
+        "category": [
+            "JS SDK",
+            "通用 SDK"
+        ]
+    }
+}

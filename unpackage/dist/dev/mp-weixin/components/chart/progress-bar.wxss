@@ -1,0 +1,45 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.ranking-item.data-v-3a6e80a4 {
+  display: flex;
+  margin-bottom: 13rpx;
+  align-content: center;
+  height: 28rpx;
+}
+.ranking-item .name.data-v-3a6e80a4 {
+  padding-right: 10rpx;
+  color: #868688;
+  font-size: 20rpx;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ranking-item .progress.data-v-3a6e80a4 {
+  flex: 5;
+  text-align: left;
+  padding-right: 10rpx;
+}
+.ranking-item .progress text.data-v-3a6e80a4 {
+  display: inline-block;
+  border-radius: 30rpx;
+  vertical-align: top;
+}
+.ranking-item .num.data-v-3a6e80a4 {
+  font-size: 26rpx;
+  color: #3EB2F5;
+  flex: 1;
+}

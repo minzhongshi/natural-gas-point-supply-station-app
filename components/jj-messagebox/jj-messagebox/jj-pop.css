@@ -1,0 +1,89 @@
+/*弹层动画（放大）*/
+.popIn {
+    -webkit-animation: popIn .25s;
+	-webkit-animation-delay: 0s;
+	animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    animation: popIn .25s;
+}
+
+@-webkit-keyframes popIn {
+    0% {
+        -webkit-transform: scale3d(0, 0, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale3d(0, 0, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+        opacity: 1;
+    }
+}
+
+.fadeInOpcity{
+		-webkit-animation: fadeIn .25s;
+		-webkit-animation-delay: 0s;
+		animation-timing-function: ease-in;
+		-webkit-animation-timing-function: ease-in;
+		animation: fadeIn .25s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*弹层动画（缩小）*/
+.popOut {
+    -webkit-animation: popOut .25s;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+    animation: popOut .25s;
+	/* 保留动画结束后的样子 */
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes popOut {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+		 -webkit-transform: scale3d(0, 0, 0);
+    }
+}
+
+@keyframes popOut {
+    0% {
+        transform: scale3d(1,1, 1);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+		transform: scale3d(0,0,0);
+    }
+}

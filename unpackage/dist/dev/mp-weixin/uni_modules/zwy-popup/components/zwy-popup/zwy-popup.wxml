@@ -1,0 +1,1 @@
+<view class="data-v-53dfd3f4" hidden="{{!c}}" catchtouchmove="{{d}}"><view class="mask data-v-53dfd3f4" style="{{a}}"></view><view class="tip data-v-53dfd3f4" style="{{b}}"><slot></slot></view></view>

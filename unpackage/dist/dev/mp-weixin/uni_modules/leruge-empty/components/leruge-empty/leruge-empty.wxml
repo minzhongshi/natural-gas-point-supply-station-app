@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="leruge-empty data-v-1e7c5d68" style="{{'margin-top:' + d}}"><uni-icons wx:if="{{b}}" class="data-v-1e7c5d68" u-i="1e7c5d68-0" bind:__l="__l" u-p="{{b}}"></uni-icons><view class="data-v-1e7c5d68" style="margin-top:20rpx"><text class="data-v-1e7c5d68" style="color:#c0c4cc;font-size:28rpx">{{c}}</text></view></view>

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "设备",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "area-card": "./area/areaCard",
+    "uni-data-picker": "../../uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "uni-search-bar": "../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-grid-item": "../../uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "uni-grid": "../../uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "zwy-popup": "../../uni_modules/zwy-popup/components/zwy-popup/zwy-popup"
+  }
+}

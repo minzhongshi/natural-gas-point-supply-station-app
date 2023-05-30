@@ -1,0 +1,18 @@
+{
+	"series": [
+		{
+			"data":[
+				{
+					"name": "重庆科技学院",
+					"value": 966,
+					"color":"#FFBF31"
+				}, 
+				{
+					"name": "重庆科技学院2",
+					"value": 1226,
+					"color":"#3CEFC4"
+				} 
+			]
+		}
+	]
+}

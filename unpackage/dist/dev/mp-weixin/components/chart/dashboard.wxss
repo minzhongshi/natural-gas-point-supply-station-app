@@ -1,0 +1,6 @@
+
+	/* 请根据实际需求修改父元素尺寸，组件自动识别宽高 */
+.charts-box.data-v-e62b4a81 {
+		width: 100%;
+		height: 650rpx;
+}

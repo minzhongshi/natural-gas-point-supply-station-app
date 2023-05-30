@@ -1,0 +1,1 @@
+"use strict";const t=Symbol("$$promise");class r{get[Symbol.toStringTag](){return"[object Fetcher]"}constructor(){this[t]=new Promise(((t,r)=>{this.resolve=t,this.reject=r}))}async source(){return this[t]}async abort(){var t;null==(t=await this.source())||t.abort()}}exports.Fetcher=r;

@@ -1,0 +1,31 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.areaCard.data-v-73ded2fe {
+  width: 342rpx;
+  height: 270rpx;
+  border-radius: 10%;
+  margin: 0 auto;
+  box-shadow: 2rpx 2rpx 4rpx 4rpx rgba(0, 0, 0, 0.1);
+}
+.areaCard .areaCard-text.data-v-73ded2fe {
+  font-weight: bold;
+  margin: auto;
+  width: 6em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: nowrap;
+}

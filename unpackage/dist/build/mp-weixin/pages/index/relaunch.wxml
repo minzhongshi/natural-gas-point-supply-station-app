@@ -1,0 +1,1 @@
+<view class="relaunch-page"><button plain class="relaunch-logn" bindtap="{{b}}">{{a}}</button></view>

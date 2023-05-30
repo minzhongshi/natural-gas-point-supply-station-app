@@ -1,0 +1,152 @@
+{
+	"pages": [{
+            "path" : "pages/index/relaunch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#5f4ac1",
+                "enablePullDownRefresh": false,
+				"disableScroll":true,
+				"app-plus": {
+					"autoBackButton": "false"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/work",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/equipment/index",
+			"style": 
+			{
+				"navigationBarTitleText": "设备",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/statistics/index",
+			"style": 
+			{
+				"navigationBarTitleText": "统计",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": 
+			{
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle":"white",
+				 "navigationBarBackgroundColor": "#5199ff"
+			}
+		}
+        ,{
+            "path" : "pages/message/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/equipment/area/areaContent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/message/details/details",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/me/jump/escalation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/jump/password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/jump/help",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		//F68080
+			"borderStyle": "white",
+			"backgroundColor": "#FFFFFF",
+			"list": [{
+					"pagePath": "pages/equipment/index",
+					"iconPath": "static/tabBar/shebei.png",
+					"selectedIconPath": "static/tabBar/slshebei.png",
+					"text": ""
+				},
+				{
+					"pagePath": "pages/statistics/index",
+					"iconPath": "static/tabBar/tongji.png",
+					"selectedIconPath": "static/tabBar/sltongji.png",
+					"text": ""
+				}, 
+				{
+					"pagePath": "pages/message/index",
+					"iconPath": "static/tabBar/xiaoxi.png",
+					"selectedIconPath": "static/tabBar/slxiaoxi.png",
+					"text": ""
+				}, 
+				{
+					"pagePath": "pages/me/index",
+					"iconPath": "static/tabBar/wode.png",
+					"selectedIconPath": "static/tabBar/slwode.png",
+					"text": ""
+				}
+			],
+			
+			"midButton": {
+						"iconPath": "static/tabBar/zenjia.png",
+						"iconWidth": "120rpx",
+						"height": "155rpx"
+					}
+			
+		}
+}

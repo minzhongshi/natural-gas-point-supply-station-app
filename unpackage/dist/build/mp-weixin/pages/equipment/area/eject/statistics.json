@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "dashboard": "../../../../components/chart/dashboard",
+    "statistics": "../../../../components/chart/statistics"
+  }
+}

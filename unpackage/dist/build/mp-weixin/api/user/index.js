@@ -1,0 +1,1 @@
+"use strict";exports.API={USER_LOGIN:"http://192.168.1.7:8002/user/login",USER_LOGOUT:"http://192.168.1.7:8002/user/logout",USER_PASSWORD:"http://192.168.1.7:8006/auth/oauth/password",USER_VERIFYCODE:"http://192.168.1.7:8006/auth/authentication/getVerifyCode"};

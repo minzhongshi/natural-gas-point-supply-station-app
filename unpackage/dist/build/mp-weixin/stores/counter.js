@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),t=e.defineStore("user",{state:()=>({information:{}}),unistorage:{paths:"information"}}),o=e.defineStore("token",{state:()=>({token:""}),unistorage:{paths:"token"}});exports.userAccountStore=t,exports.userToken=o;

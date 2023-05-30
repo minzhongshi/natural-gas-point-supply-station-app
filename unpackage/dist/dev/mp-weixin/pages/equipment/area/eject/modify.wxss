@@ -1,0 +1,36 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.modify .tabs.data-v-62ca7eea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.modify .tabs .button.data-v-62ca7eea {
+  padding: 20rpx 0;
+}
+.modify .tabs .button .btn.data-v-62ca7eea {
+  height: 55rpx;
+  padding: 0 20rpx;
+  text-align: center;
+  line-height: 55rpx;
+  border-radius: 15rpx;
+  background-color: #F8F8F8;
+}
+.modify .tabs .button .activity.data-v-62ca7eea {
+  background: linear-gradient(#FF6F76, #FFA46A);
+  color: #FFFFFF;
+}

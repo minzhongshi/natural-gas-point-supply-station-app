@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../../../common/vendor.js");exports.adapter=function(t){return new Promise(((s,o)=>{var r;const n=e.index.request({...t,complete:e=>{const r={config:t,...e};!t.validateStatus||t.validateStatus(e.statusCode)?s(r):o(r)}});null==(r=t.fetcher)||r.resolve(n)}))};

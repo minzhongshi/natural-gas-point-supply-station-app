@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/relaunch",
+    "pages/login/work",
+    "pages/equipment/index",
+    "pages/statistics/index",
+    "pages/me/index",
+    "pages/message/index",
+    "pages/equipment/area/areaContent",
+    "pages/message/details/details",
+    "pages/me/jump/escalation",
+    "pages/me/jump/password",
+    "pages/me/jump/help"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/equipment/index",
+        "iconPath": "static/tabBar/shebei.png",
+        "selectedIconPath": "static/tabBar/slshebei.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/statistics/index",
+        "iconPath": "static/tabBar/tongji.png",
+        "selectedIconPath": "static/tabBar/sltongji.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "static/tabBar/xiaoxi.png",
+        "selectedIconPath": "static/tabBar/slxiaoxi.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "static/tabBar/wode.png",
+        "selectedIconPath": "static/tabBar/slwode.png",
+        "text": ""
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

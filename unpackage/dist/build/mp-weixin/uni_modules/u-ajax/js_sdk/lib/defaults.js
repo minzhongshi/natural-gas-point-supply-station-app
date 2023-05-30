@@ -1,0 +1,1 @@
+"use strict";const e=require("./adapters/http.js"),t=require("./utils.js"),a=["get","post","put","delete","connect","head","options","trace"],r=["common",...a],s={adapter:e.adapter,header:{},method:"GET",validateStatus:e=>e>=200&&e<300};t.forEach(r,(e=>s.header[e]={})),exports.HEADER=r,exports.METHOD=a,exports.defaults=s;

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "leruge-empty": "../../uni_modules/leruge-empty/components/leruge-empty/leruge-empty"
+  }
+}

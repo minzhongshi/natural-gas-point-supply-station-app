@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={data:()=>({phone:"工 号 登 录",nowlocation:"",key:"1932a3ccce6d40ce7f5a613c263e28f7",amapPlugin:null}),onLoad(e){},methods:{login(){e.index.navigateTo({url:"/pages/login/work"})}},mounted(){},created(){}};const n=e._export_sfc(o,[["render",function(o,n,a,t,c,r){return{a:e.t(c.phone),b:e.o((e=>r.login()))}}]]);wx.createPage(n);

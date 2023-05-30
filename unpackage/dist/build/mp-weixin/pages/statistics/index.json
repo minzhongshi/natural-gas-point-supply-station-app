@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "统计",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "progress-bar": "../../components/chart/progress-bar",
+    "qiun-data-charts": "../../uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts"
+  }
+}
